@@ -2,3 +2,8 @@
 <button [disabled]="currentFlag"> Property Binding Example</button><br>
 
 <button (click)="onclick()">Click here </button>
+
+<br>
+<input type ="text" name="firstname" [(ngModel)]="firstName"/>
+
+<h2>Here is the first Name : {{firstName}}</h2>
