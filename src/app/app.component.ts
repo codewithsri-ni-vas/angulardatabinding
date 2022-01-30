@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularbinding';
   currentFlag:boolean=false;
+
+  onclick() {
+    this.title="New title from Event click"
+  }
 }
